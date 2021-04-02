@@ -65,11 +65,13 @@ body {
 	background: #e7e4d8;
 	border: 3px solid #d6d3c8;
 	padding: 20px;
+	align-self: flex-start;
 }
 
 .filtro h2 {
 	font-size: 1.125em;
-	padding: 10px 0
+	padding: 10px 0;
+	font-weight: bold;
 }
 
 .filtro ul {
@@ -94,6 +96,12 @@ body {
 	margin-top: 5px;
 }
 
+@media only screen and (max-width: 739px) {
+	.filtro {
+		display: none;
+	}
+}
+
 .sabor {
 	overflow: hidden;
 }
@@ -111,22 +119,22 @@ body {
 .sabor-3 {
 	color: #492901;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor;
+				40px 0 0 0 currentColor;
 }
 
 .sabor-4 {
 	color: #c17139;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor,
-							60px 0 0 0 currentColor;
+				40px 0 0 0 currentColor,
+				60px 0 0 0 currentColor;
 }
 
 .sabor-5 {
 	color: #d7a54d;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor,
-							60px 0 0 0 currentColor,
-							80px 0 0 0 currentColor;
+				40px 0 0 0 currentColor,
+				60px 0 0 0 currentColor,
+				80px 0 0 0 currentColor;
 }
 
 /*PRODUTOS*/

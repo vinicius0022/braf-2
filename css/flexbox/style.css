@@ -117,22 +117,22 @@ body {
 .sabor-3 {
 	color: #492901;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor;
+				40px 0 0 0 currentColor;
 }
 
 .sabor-4 {
 	color: #c17139;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor,
-							60px 0 0 0 currentColor;
+				40px 0 0 0 currentColor,
+				60px 0 0 0 currentColor;
 }
 
 .sabor-5 {
 	color: #d7a54d;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor,
-							60px 0 0 0 currentColor,
-							80px 0 0 0 currentColor;
+				40px 0 0 0 currentColor,
+				60px 0 0 0 currentColor,
+				80px 0 0 0 currentColor;
 }
 
 /*PRODUTOS*/
