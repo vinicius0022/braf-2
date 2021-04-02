@@ -1,0 +1,35 @@
+@media only screen and ( min-width: 740px ) and ( max-width: 980px ) {
+    .container {
+        max-width: 720px;
+    }
+
+    .filtro {
+        width: 220px;
+    }
+
+    .produtos {
+        width: 460px;
+    }
+
+    .produtos li {
+        width: 220px;
+    }
+}
+
+@media only screen and ( max-width: 739px ) {
+    .container {
+        max-width: 300px;
+    }
+
+    .filtro {
+        display: none;
+    }
+
+    .produtos {
+        width: 300px;
+    }
+
+    .produtos li {
+        width: 140px;
+    }
+}
